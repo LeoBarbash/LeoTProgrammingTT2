@@ -6,4 +6,4 @@ env:
 install:
   - pip install -q Django==$DJANGO_VERSION
 script:
-  - dev.py
+  - pytest
