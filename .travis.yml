@@ -4,4 +4,4 @@ python:
 install:
   - pip install -U pytest
 script:
-  - pytest
+  - pytest dev.py
